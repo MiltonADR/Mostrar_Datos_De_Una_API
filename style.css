@@ -1,6 +1,61 @@
+*{
+        box-sizing: border-box;
+}
 .titulo{
 
-        margin-bottom: 20px;
+        text-align: center;
         color: #0096c7;
 
+}
+
+.container{
+
+        width: 100%;
+        height: 100vh;
+}
+
+.header{
+
+        width: 100%;
+        height: 20%;
+        background-color: #0096c7;
+        color: #fff;
+}
+
+.logo{
+        width: 50%;
+}
+
+.navegacion{
+        width: 50%;
+}
+
+.navegacion>ul>a{
+        
+        color: #fff;
+        text-decoration: none;
+}
+
+.principal{
+
+        width: 100%;
+        height: 70%;
+}
+
+.principal>.table{
+
+        width: 100%;
+       
+}
+
+.pie{
+
+        width: 100%;
+        height: 10%;
+        background-color: #0096c7;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
 }

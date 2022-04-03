@@ -17,3 +17,5 @@ const mostrarDatos = (data) => {
 
     document.getElementById('tbody').innerHTML = body;
 }
+
+
