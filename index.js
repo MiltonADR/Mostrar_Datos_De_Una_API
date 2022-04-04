@@ -11,7 +11,7 @@ const mostrarDatos = (data) => {
 
     for (let i = 0; i < data.length; i++) {
 
-        body += `<tr><th>${data[i].id}</th><th>${data[i].name}</th><th>${data[i].email}</th></tr>`;
+        body += `<tr><th>${data[i].id}</th><th>${data[i].name}</th><th>${data[i].username}</th><th>${data[i].email}</th></tr>`;
         
     }
 

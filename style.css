@@ -17,35 +17,55 @@
 .header{
 
         width: 100%;
-        height: 20%;
+        height: 10%;
         background-color: #0096c7;
         color: #fff;
+        display: flex;
+        
 }
 
 .logo{
         width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 .navegacion{
         width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
 }
 
 .navegacion>ul>a{
         
         color: #fff;
         text-decoration: none;
+        margin: 5px;
+}
+
+.navegacion>ul>a:hover{
+        
+        background-color: #FFFFFF;
+        color: #0096c7;
+        padding: 5px;
+        border-radius: 5px;
 }
 
 .principal{
 
         width: 100%;
-        height: 70%;
+        height: 80%;
+        
+        
 }
 
 .principal>.table{
 
-        width: 100%;
-       
+        margin: 10px;
+      /*  border: 1px solid #0096c7;*/
 }
 
 .pie{
@@ -54,8 +74,8 @@
         height: 10%;
         background-color: #0096c7;
         color: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
+        text-align: center;
+        margin: 0;
+        padding: 0;
+       
 }
